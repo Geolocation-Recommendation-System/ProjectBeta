@@ -1,0 +1,786 @@
+{
+	"meta": {
+		"code": 200,
+		"requestId": "5f749cea2a63e4724cbe2312"
+	},
+	"response": {
+		"suggestedFilters": {
+			"header": "Tap to show:",
+			"filters": [{
+				"name": "Open now",
+				"key": "openNow"
+			}, {
+				"name": "$-$$$$",
+				"key": "price"
+			}]
+		},
+		"suggestedRadius": 1683,
+		"headerLocation": "Northwestern Queens",
+		"headerFullLocation": "Northwestern Queens, Queens",
+		"headerLocationGranularity": "neighborhood",
+		"query": "coffee",
+		"totalResults": 49,
+		"suggestedBounds": {
+			"ne": {
+				"lat": 40.74425808371646,
+				"lng": -73.93444362500622
+			},
+			"sw": {
+				"lat": 40.7163465346967,
+				"lng": -73.95310001785685
+			}
+		},
+		"groups": [{
+			"type": "Recommended Places",
+			"name": "recommended",
+			"items": [{
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5a05e23ab54618578358ce59",
+					"name": "Alkemy",
+					"contact": {},
+					"location": {
+						"address": "290 Nassau Ave",
+						"crossStreet": "Hausman St",
+						"lat": 40.725925,
+						"lng": -73.939136,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.725925,
+							"lng": -73.939136
+						}],
+						"distance": 616,
+						"postalCode": "11222",
+						"cc": "US",
+						"neighborhood": "Greenpoint",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["290 Nassau Ave (Hausman St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5a05e23ab54618578358ce59-0"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a70aa46f964a52022d81fe3",
+					"name": "Variety Coffee Roasters",
+					"contact": {},
+					"location": {
+						"address": "145 Driggs Ave",
+						"crossStreet": "Btwn Russell St. & Humboldt St.",
+						"lat": 40.72307188109027,
+						"lng": -73.94439175100699,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72307188109027,
+							"lng": -73.94439175100699
+						}, {
+							"label": "entrance",
+							"lat": 40.722991,
+							"lng": -73.944314
+						}],
+						"distance": 1140,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["145 Driggs Ave (Btwn Russell St. & Humboldt St.)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 1,
+						"summary": "One other person is here",
+						"groups": [{
+							"type": "others",
+							"name": "Other people here",
+							"count": 1,
+							"items": []
+						}]
+					}
+				},
+				"referralId": "e-0-4a70aa46f964a52022d81fe3-1"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "523b96d3bce6fd839d2f35ed",
+					"name": "Crema BK",
+					"contact": {},
+					"location": {
+						"address": "182 Driggs Ave",
+						"crossStreet": "btwn Newel St & Diamond St",
+						"lat": 40.72300078931377,
+						"lng": -73.94572657481183,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72300078931377,
+							"lng": -73.94572657481183
+						}, {
+							"label": "entrance",
+							"lat": 40.723006,
+							"lng": -73.945715
+						}],
+						"distance": 1224,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["182 Driggs Ave (btwn Newel St & Diamond St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "96990788"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-523b96d3bce6fd839d2f35ed-2"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "43a18b01f964a5202e2c1fe3",
+					"name": "Cafe Grumpy",
+					"contact": {},
+					"location": {
+						"address": "193 Meserole Ave",
+						"crossStreet": "at Diamond St",
+						"lat": 40.72856329841961,
+						"lng": -73.94863907268991,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72856329841961,
+							"lng": -73.94863907268991
+						}, {
+							"label": "entrance",
+							"lat": 40.728517,
+							"lng": -73.94865
+						}],
+						"distance": 1152,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["193 Meserole Ave (at Diamond St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "49222149"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-43a18b01f964a5202e2c1fe3-3"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5509c885498e12d8c986aa41",
+					"name": "Doughnut Plant",
+					"contact": {},
+					"location": {
+						"address": "31-00 47th Avenue",
+						"crossStreet": "at 31st St",
+						"lat": 40.74298937694283,
+						"lng": -73.93529164286308,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.74298937694283,
+							"lng": -73.93529164286308
+						}],
+						"distance": 1378,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["31-00 47th Avenue (at 31st St)", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1150082",
+						"url": "https:\/\/www.seamless.com\/menu\/doughnut-plant-queens-3100-47th-ave-long-island-city\/1150082?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1150082",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "124392416"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5509c885498e12d8c986aa41-4"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "53e4f809498e020ca20c7156",
+					"name": "Moe\u2019s Doughs",
+					"contact": {},
+					"location": {
+						"address": "126 Nassau Ave",
+						"crossStreet": "at McGuinness Blvd",
+						"lat": 40.72453198451689,
+						"lng": -73.94851741601325,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72453198451689,
+							"lng": -73.94851741601325
+						}, {
+							"label": "entrance",
+							"lat": 40.724434,
+							"lng": -73.948514
+						}],
+						"distance": 1308,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["126 Nassau Ave (at McGuinness Blvd)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "112753061"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-53e4f809498e020ca20c7156-5"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "45ed04d8f964a520a9431fe3",
+					"name": "Peter Pan Donut & Pastry Shop",
+					"contact": {},
+					"location": {
+						"address": "727 Manhattan Ave",
+						"crossStreet": "btwn Norman & Meserole Ave",
+						"lat": 40.726102,
+						"lng": -73.952252,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.726102,
+							"lng": -73.952252
+						}, {
+							"label": "entrance",
+							"lat": 40.726077,
+							"lng": -73.952221
+						}],
+						"distance": 1520,
+						"postalCode": "11222",
+						"cc": "US",
+						"neighborhood": "Greenpoint",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["727 Manhattan Ave (btwn Norman & Meserole Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "70348613"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-45ed04d8f964a520a9431fe3-6"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5df51aa408bb430008add464",
+					"name": "Ms. OHHO",
+					"contact": {},
+					"location": {
+						"address": "146 Nassau Ave",
+						"lat": 40.72484,
+						"lng": -73.947846,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72484,
+							"lng": -73.947846
+						}],
+						"distance": 1242,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["146 Nassau Ave", "New York, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d113941735",
+						"name": "Korean Restaurant",
+						"pluralName": "Korean Restaurants",
+						"shortName": "Korean",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/korean_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1531954",
+						"url": "https:\/\/www.seamless.com\/menu\/ms-ohho-146-nassau-ave-brooklyn\/1531954?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1531954",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5df51aa408bb430008add464-7"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4e05fe09814da2255b4736d8",
+					"name": "Tar Pit",
+					"contact": {},
+					"location": {
+						"address": "135A Woodpoint Rd",
+						"crossStreet": "btwn Withers & Jackson St",
+						"lat": 40.71761524147032,
+						"lng": -73.9414005482893,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.71761524147032,
+							"lng": -73.9414005482893
+						}],
+						"distance": 1537,
+						"postalCode": "11211",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["135A Woodpoint Rd (btwn Withers & Jackson St)", "Brooklyn, NY 11211", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "37203745"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4e05fe09814da2255b4736d8-8"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4ea5506930f8b9d5ad8926ce",
+					"name": "Charlotte Patisserie",
+					"contact": {},
+					"location": {
+						"address": "596 Manhattan Ave",
+						"crossStreet": "btwn Nassau & Driggs Ave",
+						"lat": 40.723050734645454,
+						"lng": -73.95038613361244,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.723050734645454,
+							"lng": -73.95038613361244
+						}, {
+							"label": "entrance",
+							"lat": 40.723069,
+							"lng": -73.950272
+						}],
+						"distance": 1529,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["596 Manhattan Ave (btwn Nassau & Driggs Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16a941735",
+						"name": "Bakery",
+						"pluralName": "Bakeries",
+						"shortName": "Bakery",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/bakery_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "304901",
+						"url": "https:\/\/www.seamless.com\/menu\/charlotte-patisserie-596-manhattan-ave-brooklyn\/304901?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=304901",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "51034274"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4ea5506930f8b9d5ad8926ce-9"
+			}]
+		}]
+	}
+}
