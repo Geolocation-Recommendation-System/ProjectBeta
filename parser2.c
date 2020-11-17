@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include<json-c/json.h>
  
 int main(void)
@@ -41,6 +42,9 @@ int main(void)
 	
 	n_items = json_object_array_length(items);
 	printf("Found %lu groups\n",n_items);
+	FILE *file;
+	file = fopen("data.txt", "w");
+	if( !fp ) perror("data.txt"),exit(1);
 	for(int i=0;i<n_items;i++) {
 		items_refined = json_object_array_get_idx(items, i);
 		json_object_object_get_ex(items_refined, "venue", &venue);
@@ -49,7 +53,9 @@ int main(void)
 		json_object_object_get_ex(location, "lat", &lat);
 		json_object_object_get_ex(location, "lng", &lng);
 		printf("%f\t%f\n",json_object_get_double(lat), json_object_get_double(lng));
+		fprintf(file,"%f,%f\n",json_object_get_double(lat),json_object_get_double(lng));
 	}
+	fclose(file);
 	
 	//printf("%s\n",json_object_get_string(items_refined));
 	fclose(fp);
