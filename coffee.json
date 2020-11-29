@@ -1,15 +1,12 @@
 {
 	"meta": {
 		"code": 200,
-		"requestId": "5f749cea2a63e4724cbe2312"
+		"requestId": "5fb9fab6e76a681dc80a19c4"
 	},
 	"response": {
 		"suggestedFilters": {
 			"header": "Tap to show:",
 			"filters": [{
-				"name": "Open now",
-				"key": "openNow"
-			}, {
 				"name": "$-$$$$",
 				"key": "price"
 			}]
@@ -19,15 +16,15 @@
 		"headerFullLocation": "Northwestern Queens, Queens",
 		"headerLocationGranularity": "neighborhood",
 		"query": "coffee",
-		"totalResults": 49,
+		"totalResults": 51,
 		"suggestedBounds": {
 			"ne": {
-				"lat": 40.74425808371646,
-				"lng": -73.93444362500622
+				"lat": 40.746661653458915,
+				"lng": -73.91738083232421
 			},
 			"sw": {
-				"lat": 40.7163465346967,
-				"lng": -73.95310001785685
+				"lat": 40.716124259296436,
+				"lng": -73.95649910322267
 			}
 		},
 		"groups": [{
@@ -164,17 +161,85 @@
 						"groups": []
 					},
 					"hereNow": {
-						"count": 1,
-						"summary": "One other person is here",
-						"groups": [{
-							"type": "others",
-							"name": "Other people here",
-							"count": 1,
-							"items": []
-						}]
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
 					}
 				},
 				"referralId": "e-0-4a70aa46f964a52022d81fe3-1"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "43a18b01f964a5202e2c1fe3",
+					"name": "Café Grumpy",
+					"contact": {},
+					"location": {
+						"address": "193 Meserole Ave",
+						"crossStreet": "at Diamond St",
+						"lat": 40.72856329841961,
+						"lng": -73.94863907268991,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72856329841961,
+							"lng": -73.94863907268991
+						}, {
+							"label": "entrance",
+							"lat": 40.728517,
+							"lng": -73.94865
+						}],
+						"distance": 1152,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["193 Meserole Ave (at Diamond St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "49222149"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-43a18b01f964a5202e2c1fe3-2"
 			}, {
 				"reasons": {
 					"count": 0,
@@ -247,80 +312,7 @@
 						"groups": []
 					}
 				},
-				"referralId": "e-0-523b96d3bce6fd839d2f35ed-2"
-			}, {
-				"reasons": {
-					"count": 0,
-					"items": [{
-						"summary": "This spot is popular",
-						"type": "general",
-						"reasonName": "globalInteractionReason"
-					}]
-				},
-				"venue": {
-					"id": "43a18b01f964a5202e2c1fe3",
-					"name": "Cafe Grumpy",
-					"contact": {},
-					"location": {
-						"address": "193 Meserole Ave",
-						"crossStreet": "at Diamond St",
-						"lat": 40.72856329841961,
-						"lng": -73.94863907268991,
-						"labeledLatLngs": [{
-							"label": "display",
-							"lat": 40.72856329841961,
-							"lng": -73.94863907268991
-						}, {
-							"label": "entrance",
-							"lat": 40.728517,
-							"lng": -73.94865
-						}],
-						"distance": 1152,
-						"postalCode": "11222",
-						"cc": "US",
-						"city": "Brooklyn",
-						"state": "NY",
-						"country": "United States",
-						"formattedAddress": ["193 Meserole Ave (at Diamond St)", "Brooklyn, NY 11222", "United States"]
-					},
-					"categories": [{
-						"id": "4bf58dd8d48988d1e0931735",
-						"name": "Coffee Shop",
-						"pluralName": "Coffee Shops",
-						"shortName": "Coffee Shop",
-						"icon": {
-							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
-							"suffix": ".png"
-						},
-						"primary": true
-					}],
-					"verified": true,
-					"stats": {
-						"tipCount": 0,
-						"usersCount": 0,
-						"checkinsCount": 0,
-						"visitsCount": 0
-					},
-					"beenHere": {
-						"count": 0,
-						"lastCheckinExpiredAt": 0,
-						"marked": false,
-						"unconfirmedCount": 0
-					},
-					"photos": {
-						"count": 0,
-						"groups": []
-					},
-					"venuePage": {
-						"id": "49222149"
-					},
-					"hereNow": {
-						"count": 0,
-						"summary": "Nobody here",
-						"groups": []
-					}
-				},
-				"referralId": "e-0-43a18b01f964a5202e2c1fe3-3"
+				"referralId": "e-0-523b96d3bce6fd839d2f35ed-3"
 			}, {
 				"reasons": {
 					"count": 0,
@@ -705,6 +697,145 @@
 					}]
 				},
 				"venue": {
+					"id": "5634f0c9498e207099fb2057",
+					"name": "Champion Coffee",
+					"contact": {},
+					"location": {
+						"address": "142 Nassau Ave",
+						"lat": 40.7247764528864,
+						"lng": -73.94778225989147,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.7247764528864,
+							"lng": -73.94778225989147
+						}, {
+							"label": "entrance",
+							"lat": 40.724713,
+							"lng": -73.947686
+						}],
+						"distance": 1241,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["142 Nassau Ave", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5634f0c9498e207099fb2057-9"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a352ac2f964a5208c9c1fe3",
+					"name": "The Blue Stove",
+					"contact": {},
+					"location": {
+						"address": "415 Graham Ave",
+						"crossStreet": "btwn Withers and Frost St",
+						"lat": 40.71751232266746,
+						"lng": -73.94490768662774,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.71751232266746,
+							"lng": -73.94490768662774
+						}, {
+							"label": "entrance",
+							"lat": 40.717457,
+							"lng": -73.94502
+						}],
+						"distance": 1670,
+						"postalCode": "11211",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["415 Graham Ave (btwn Withers and Frost St)", "Brooklyn, NY 11211", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16a941735",
+						"name": "Bakery",
+						"pluralName": "Bakeries",
+						"shortName": "Bakery",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/bakery_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4a352ac2f964a5208c9c1fe3-10"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
 					"id": "4ea5506930f8b9d5ad8926ce",
 					"name": "Charlotte Patisserie",
 					"contact": {},
@@ -779,7 +910,2744 @@
 						"groups": []
 					}
 				},
-				"referralId": "e-0-4ea5506930f8b9d5ad8926ce-9"
+				"referralId": "e-0-4ea5506930f8b9d5ad8926ce-11"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "54d43863498e653d2ab8343f",
+					"name": "Early",
+					"contact": {},
+					"location": {
+						"address": "967 Manhattan Ave",
+						"crossStreet": "at India St",
+						"lat": 40.732069,
+						"lng": -73.954721,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.732069,
+							"lng": -73.954721
+						}, {
+							"label": "entrance",
+							"lat": 40.732148,
+							"lng": -73.954727
+						}],
+						"distance": 1651,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["967 Manhattan Ave (at India St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "310918",
+						"url": "https:\/\/www.seamless.com\/menu\/early-967-manhattan-ave-brooklyn\/310918?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=310918",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "121231804"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-54d43863498e653d2ab8343f-12"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a6b3156f964a52025ce1fe3",
+					"name": "Cafe Riviera",
+					"contact": {},
+					"location": {
+						"address": "830 Manhattan Ave",
+						"lat": 40.728513705692265,
+						"lng": -73.95347725897479,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.728513705692265,
+							"lng": -73.95347725897479
+						}, {
+							"label": "entrance",
+							"lat": 40.728621,
+							"lng": -73.953446
+						}],
+						"distance": 1555,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["830 Manhattan Ave", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4a6b3156f964a52025ce1fe3-13"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "58b6e16ffc73d40233da9715",
+					"name": "odd fox",
+					"contact": {},
+					"location": {
+						"address": "984 Manhattan Ave",
+						"crossStreet": "India & Huron",
+						"lat": 40.73267268846633,
+						"lng": -73.95454999352046,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.73267268846633,
+							"lng": -73.95454999352046
+						}],
+						"distance": 1644,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["984 Manhattan Ave (India & Huron)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-58b6e16ffc73d40233da9715-14"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "575467b1498e848fce847ca1",
+					"name": "Pueblo Querido Coffee Roasters",
+					"contact": {},
+					"location": {
+						"address": "195 Greenpoint Ave",
+						"crossStreet": "McGuinness Blvd.",
+						"lat": 40.730526,
+						"lng": -73.951822,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.730526,
+							"lng": -73.951822
+						}, {
+							"label": "entrance",
+							"lat": 40.73051,
+							"lng": -73.951834
+						}],
+						"distance": 1398,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["195 Greenpoint Ave (McGuinness Blvd.)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-575467b1498e848fce847ca1-15"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5dcaee4ef3d66f00071eaced",
+					"name": "Birch Coffee",
+					"contact": {},
+					"location": {
+						"address": "3030 47th Ave",
+						"lat": 40.742977142333984,
+						"lng": -73.93648529052734,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.742977142333984,
+							"lng": -73.93648529052734
+						}],
+						"distance": 1380,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["3030 47th Ave", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5dcaee4ef3d66f00071eaced-16"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5dd7ea14e100e00007922a25",
+					"name": "Coffee Project \/ Academy",
+					"contact": {},
+					"location": {
+						"address": "21-10 51st Ave",
+						"crossStreet": "21st St",
+						"lat": 40.740936,
+						"lng": -73.949181,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.740936,
+							"lng": -73.949181
+						}],
+						"distance": 1644,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["21-10 51st Ave (21st St)", "New York, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "2288251",
+						"url": "https:\/\/www.seamless.com\/menu\/coffee-project-ny-21-10-51st-ave-long-island-city\/2288251?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2288251",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5dd7ea14e100e00007922a25-17"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4d8f7d48d265236a02c72117",
+					"name": "Upright Coffee",
+					"contact": {},
+					"location": {
+						"address": "860 Manhattan Ave",
+						"crossStreet": "at Milton St",
+						"lat": 40.72933199515132,
+						"lng": -73.9538915154595,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72933199515132,
+							"lng": -73.9538915154595
+						}],
+						"distance": 1579,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["860 Manhattan Ave (at Milton St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "50256699"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4d8f7d48d265236a02c72117-18"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a2bc609f964a520dd961fe3",
+					"name": "Cup",
+					"contact": {},
+					"location": {
+						"address": "79 Norman Ave",
+						"crossStreet": "btwn Lorimer St & Manhattan Ave",
+						"lat": 40.72533260373751,
+						"lng": -73.9522611824677,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72533260373751,
+							"lng": -73.9522611824677
+						}, {
+							"label": "entrance",
+							"lat": 40.725296,
+							"lng": -73.952454
+						}],
+						"distance": 1551,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["79 Norman Ave (btwn Lorimer St & Manhattan Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "78892521"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4a2bc609f964a520dd961fe3-19"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "54283abd498e920cadc9692d",
+					"name": "Slick Willie",
+					"contact": {},
+					"location": {
+						"address": "179 Meserole Ave",
+						"lat": 40.728260093610864,
+						"lng": -73.94946276978422,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.728260093610864,
+							"lng": -73.94946276978422
+						}, {
+							"label": "entrance",
+							"lat": 40.728317,
+							"lng": -73.94925
+						}],
+						"distance": 1227,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["179 Meserole Ave", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d14e941735",
+						"name": "American Restaurant",
+						"pluralName": "American Restaurants",
+						"shortName": "American",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "298728",
+						"url": "https:\/\/www.seamless.com\/menu\/slick-willie-179-messerole-ave-brooklyn\/298728?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=298728",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "114157509"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-54283abd498e920cadc9692d-20"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a26e7b6f964a520eb7e1fe3",
+					"name": "URO Café",
+					"contact": {},
+					"location": {
+						"address": "277 Driggs Ave",
+						"crossStreet": "at Leonard St.",
+						"lat": 40.722611245817035,
+						"lng": -73.94891543059562,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.722611245817035,
+							"lng": -73.94891543059562
+						}, {
+							"label": "entrance",
+							"lat": 40.722491,
+							"lng": -73.948836
+						}],
+						"distance": 1457,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["277 Driggs Ave (at Leonard St.)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4a26e7b6f964a520eb7e1fe3-21"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4bab768cf964a52046ab3ae3",
+					"name": "Lite Bites",
+					"contact": {},
+					"location": {
+						"address": "700 Manhattan Ave",
+						"crossStreet": "at Norman Ave",
+						"lat": 40.72549971574639,
+						"lng": -73.95166447427533,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72549971574639,
+							"lng": -73.95166447427533
+						}, {
+							"label": "entrance",
+							"lat": 40.725585,
+							"lng": -73.951703
+						}],
+						"distance": 1497,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["700 Manhattan Ave (at Norman Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "67145",
+						"url": "https:\/\/www.seamless.com\/menu\/lite-bites-700-manhattan-ave-brooklyn\/67145?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=67145",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "72401507"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4bab768cf964a52046ab3ae3-22"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5b069679ad1789002c792cd5",
+					"name": "Dunkin'",
+					"contact": {},
+					"location": {
+						"address": "34-21 Greenpoint Ave",
+						"lat": 40.736764700347265,
+						"lng": -73.93218800057116,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.736764700347265,
+							"lng": -73.93218800057116
+						}],
+						"distance": 731,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Long Island City",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["34-21 Greenpoint Ave", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1158985",
+						"url": "https:\/\/www.seamless.com\/menu\/dunkin-3421-greenpoint-ave-long-island-city\/1158985?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1158985",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5b069679ad1789002c792cd5-23"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5af37239c47cf9002c6b960e",
+					"name": "Starbucks",
+					"contact": {},
+					"location": {
+						"address": "66 Nassau Ave",
+						"crossStreet": "Lorimer St",
+						"lat": 40.72339148193317,
+						"lng": -73.95168985676827,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72339148193317,
+							"lng": -73.95168985676827
+						}],
+						"distance": 1603,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["66 Nassau Ave (Lorimer St)", "New York, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5af37239c47cf9002c6b960e-24"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "57a883bd498e9480d5d5ee0a",
+					"name": "Coffee Tossy",
+					"contact": {},
+					"location": {
+						"address": "42-14 Greenpoint Ave",
+						"crossStreet": "btwn 42nd St & 43rd St",
+						"lat": 40.740498,
+						"lng": -73.92258,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.740498,
+							"lng": -73.92258
+						}],
+						"distance": 1533,
+						"postalCode": "11104",
+						"cc": "US",
+						"city": "Sunnyside",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["42-14 Greenpoint Ave (btwn 42nd St & 43rd St)", "Sunnyside, NY 11104", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1748735",
+						"url": "https:\/\/www.seamless.com\/menu\/coffee-tossy-nyc-42-14-greenpoint-ave-sunnyside\/1748735?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1748735",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-57a883bd498e9480d5d5ee0a-25"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "52d0688b498e0a8890790408",
+					"name": "Konditori",
+					"contact": {},
+					"location": {
+						"address": "687 Manhattan Ave",
+						"crossStreet": "at Norman Ave",
+						"lat": 40.72516696095789,
+						"lng": -73.95161912997344,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72516696095789,
+							"lng": -73.95161912997344
+						}, {
+							"label": "entrance",
+							"lat": 40.725093,
+							"lng": -73.951665
+						}],
+						"distance": 1508,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["687 Manhattan Ave (at Norman Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-52d0688b498e0a8890790408-26"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4bbb36e253649c7419c849fb",
+					"name": "Dunkin'",
+					"contact": {},
+					"location": {
+						"address": "4925 Van Dam St, Coastal Gas Station",
+						"crossStreet": "at Gale Ave.",
+						"lat": 40.73870737549902,
+						"lng": -73.93435676217604,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.73870737549902,
+							"lng": -73.93435676217604
+						}],
+						"distance": 904,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["4925 Van Dam St, Coastal Gas Station (at Gale Ave.)", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1162358",
+						"url": "https:\/\/www.seamless.com\/menu\/dunkin-4925-van-dam-st-long-island-city\/1162358?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1162358",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4bbb36e253649c7419c849fb-27"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a72f31df964a5205bdb1fe3",
+					"name": "Dunkin'",
+					"contact": {},
+					"location": {
+						"address": "893 Manhattan Ave",
+						"crossStreet": "btwn Greenpoint Ave & Milton St",
+						"lat": 40.7300704,
+						"lng": -73.9544154,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.7300704,
+							"lng": -73.9544154
+						}],
+						"distance": 1618,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["893 Manhattan Ave (btwn Greenpoint Ave & Milton St)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1156938",
+						"url": "https:\/\/www.seamless.com\/menu\/dunkin-893-manhattan-ave-brooklyn\/1156938?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1156938",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4a72f31df964a5205bdb1fe3-28"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4e4faebfc65bb313ba88be3a",
+					"name": "Dunkin'",
+					"contact": {},
+					"location": {
+						"address": "356 McGuinness Blvd",
+						"crossStreet": "at Freeman St.",
+						"lat": 40.73484895622142,
+						"lng": -73.95217199698834,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.73484895622142,
+							"lng": -73.95217199698834
+						}, {
+							"label": "entrance",
+							"lat": 40.734827,
+							"lng": -73.952199
+						}],
+						"distance": 1504,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["356 McGuinness Blvd (at Freeman St.)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1168954",
+						"url": "https:\/\/www.seamless.com\/menu\/dunkin-356-mcguinness-blvd-brooklyn\/1168954?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1168954",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4e4faebfc65bb313ba88be3a-29"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5ba8edc835d3fc002cb27f92",
+					"name": "The Coffee Shop",
+					"contact": {},
+					"location": {
+						"address": "269 Nassau Ave",
+						"crossStreet": "Sutton Street",
+						"lat": 40.726013,
+						"lng": -73.940858,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.726013,
+							"lng": -73.940858
+						}],
+						"distance": 697,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["269 Nassau Ave (Sutton Street)", "New York, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5ba8edc835d3fc002cb27f92-30"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4a9189d6f964a5209a1a20e3",
+					"name": "Starbucks",
+					"contact": {},
+					"location": {
+						"address": "910 Manhattan Ave",
+						"crossStreet": "at Greenpoint Ave",
+						"lat": 40.73053,
+						"lng": -73.95414,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.73053,
+							"lng": -73.95414
+						}, {
+							"label": "entrance",
+							"lat": 40.730322,
+							"lng": -73.953821
+						}],
+						"distance": 1594,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["910 Manhattan Ave (at Greenpoint Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4a9189d6f964a5209a1a20e3-31"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4b6b0e76f964a520c6ef2be3",
+					"name": "Seattle Cafe",
+					"contact": {},
+					"location": {
+						"address": "32-02 Queens Blvd",
+						"lat": 40.74469849446142,
+						"lng": -73.93347551325033,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.74469849446142,
+							"lng": -73.93347551325033
+						}],
+						"distance": 1575,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["32-02 Queens Blvd", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"venuePage": {
+						"id": "92980091"
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4b6b0e76f964a520c6ef2be3-32"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4e9d70c761af4feab62e8d24",
+					"name": "Thompson Coffee Shop",
+					"contact": {},
+					"location": {
+						"lat": 40.74215629191208,
+						"lng": -73.93643848709037,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.74215629191208,
+							"lng": -73.93643848709037
+						}],
+						"distance": 1289,
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["Long Island City, NY", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4e9d70c761af4feab62e8d24-33"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "59948d8bbe57630244ab5fe1",
+					"name": "Papillon",
+					"contact": {},
+					"location": {
+						"address": "30-30 47th Ave",
+						"crossStreet": "31st Street",
+						"lat": 40.742183000000004,
+						"lng": -73.936448,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.742183000000004,
+							"lng": -73.936448
+						}, {
+							"label": "entrance",
+							"lat": 40.742974,
+							"lng": -73.936409
+						}],
+						"distance": 1292,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["30-30 47th Ave (31st Street)", "New York, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-59948d8bbe57630244ab5fe1-34"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5b257538531593002c33f988",
+					"name": "Bobby Cafe",
+					"contact": {},
+					"location": {
+						"lat": 40.742691,
+						"lng": -73.933771,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.742691,
+							"lng": -73.933771
+						}],
+						"distance": 1350,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["New York, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5b257538531593002c33f988-35"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4c8914ff7223b1f763e030a8",
+					"name": "Coffee Shop",
+					"contact": {},
+					"location": {
+						"address": "30-30 47th Ave Fl 1",
+						"crossStreet": "Btw 30th Pl & 31st St",
+						"lat": 40.742971871934856,
+						"lng": -73.93445799377274,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.742971871934856,
+							"lng": -73.93445799377274
+						}],
+						"distance": 1377,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["30-30 47th Ave Fl 1 (Btw 30th Pl & 31st St)", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1c1941735",
+						"name": "Mexican Restaurant",
+						"pluralName": "Mexican Restaurants",
+						"shortName": "Mexican",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mexican_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4c8914ff7223b1f763e030a8-36"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4c2a4a34c758e21eb8693a3f",
+					"name": "Cafe L.I.C.",
+					"contact": {},
+					"location": {
+						"address": "3100 47th Ave",
+						"lat": 40.74301255335063,
+						"lng": -73.93529971803466,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.74301255335063,
+							"lng": -73.93529971803466
+						}],
+						"distance": 1380,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["3100 47th Ave", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d146941735",
+						"name": "Deli \/ Bodega",
+						"pluralName": "Delis \/ Bodegas",
+						"shortName": "Deli \/ Bodega",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/deli_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4c2a4a34c758e21eb8693a3f-37"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5671afd5498ec12068b6cde3",
+					"name": "karu",
+					"contact": {},
+					"location": {
+						"address": "Falchi Building",
+						"lat": 40.743018016781114,
+						"lng": -73.93537648594328,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.743018016781114,
+							"lng": -73.93537648594328
+						}],
+						"distance": 1381,
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["Falchi Building", "Queens, NY", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5671afd5498ec12068b6cde3-38"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "58b093c35804ea3ce761636f",
+					"name": "Coffeed",
+					"contact": {},
+					"location": {
+						"address": "30-30 47th Ave",
+						"crossStreet": "30st St.",
+						"lat": 40.742995270474324,
+						"lng": -73.93656791546458,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.742995270474324,
+							"lng": -73.93656791546458
+						}],
+						"distance": 1383,
+						"postalCode": "11101",
+						"cc": "US",
+						"neighborhood": "Sunnyside",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["30-30 47th Ave (30st St.)", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-58b093c35804ea3ce761636f-39"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5e8e4e194e7f430007cd012a",
+					"name": "Last Place On Earth",
+					"contact": {},
+					"location": {
+						"address": "531 Graham Ave",
+						"lat": 40.72137688408655,
+						"lng": -73.94711406590835,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.72137688408655,
+							"lng": -73.94711406590835
+						}],
+						"distance": 1435,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["531 Graham Ave", "New York, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1f3941735",
+						"name": "Toy \/ Game Store",
+						"pluralName": "Toy \/ Game Stores",
+						"shortName": "Toys & Games",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/toys_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5e8e4e194e7f430007cd012a-40"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4cbf1e6eca4aa1cd044918b4",
+					"name": "\"Enjoy My Coffee\" Sidewalk Cart",
+					"contact": {},
+					"location": {
+						"address": "30-30 30th Place",
+						"lat": 40.74377982689618,
+						"lng": -73.93618590356114,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.74377982689618,
+							"lng": -73.93618590356114
+						}],
+						"distance": 1468,
+						"postalCode": "11101",
+						"cc": "US",
+						"state": "New York",
+						"country": "United States",
+						"formattedAddress": ["30-30 30th Place", "NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4cbf1e6eca4aa1cd044918b4-41"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5c323695da5ede002cf65d79",
+					"name": "Norman Café",
+					"contact": {},
+					"location": {
+						"address": "93 Norman Ave",
+						"crossStreet": "Manhattan Ave",
+						"lat": 40.725655,
+						"lng": -73.95146,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.725655,
+							"lng": -73.95146
+						}],
+						"distance": 1475,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["93 Norman Ave (Manhattan Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5c323695da5ede002cf65d79-42"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4f321fc119836c91c7b86105",
+					"name": "W B Law and Son",
+					"contact": {},
+					"location": {
+						"address": "5675 49th St",
+						"lat": 40.725364685058594,
+						"lng": -73.91915893554688,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.725364685058594,
+							"lng": -73.91915893554688
+						}],
+						"distance": 1477,
+						"postalCode": "11378",
+						"cc": "US",
+						"city": "Maspeth",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["5675 49th St", "Maspeth, NY 11378", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4f321fc119836c91c7b86105-43"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4aec76d9f964a5206fc721e3",
+					"name": "Dunkin'",
+					"contact": {},
+					"location": {
+						"address": "643 Manhattan Ave",
+						"crossStreet": "at Bedford Ave",
+						"lat": 40.724143867566426,
+						"lng": -73.95118313864043,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.724143867566426,
+							"lng": -73.95118313864043
+						}, {
+							"label": "entrance",
+							"lat": 40.724157,
+							"lng": -73.951129
+						}],
+						"distance": 1525,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["643 Manhattan Ave (at Bedford Ave)", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d148941735",
+						"name": "Donut Shop",
+						"pluralName": "Donut Shops",
+						"shortName": "Donuts",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": true,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"delivery": {
+						"id": "1194313",
+						"url": "https:\/\/www.seamless.com\/menu\/dunkin-643-manhattan-ave-brooklyn\/1194313?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=1194313",
+						"provider": {
+							"name": "seamless",
+							"icon": {
+								"prefix": "https:\/\/fastly.4sqi.net\/img\/general\/cap\/",
+								"sizes": [40, 50],
+								"name": "\/delivery_provider_seamless_20180129.png"
+							}
+						}
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4aec76d9f964a5206fc721e3-44"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "51374749e4b0f5385acb6d6a",
+					"name": "Manhattan Restaurant",
+					"contact": {},
+					"location": {
+						"address": "632 Manhattan Ave",
+						"lat": 40.725404405615585,
+						"lng": -73.95165029672586,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.725404405615585,
+							"lng": -73.95165029672586
+						}],
+						"distance": 1500,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["632 Manhattan Ave", "Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-51374749e4b0f5385acb6d6a-45"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5c5f0992ecb3ed0025188d3d",
+					"name": "Parlor Coffee",
+					"contact": {},
+					"location": {
+						"lat": 40.722385,
+						"lng": -73.95014,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.722385,
+							"lng": -73.95014
+						}],
+						"distance": 1554,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "New York",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["New York, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5c5f0992ecb3ed0025188d3d-46"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "453cc0c9f964a520183c1fe3",
+					"name": "Magda International Cafe",
+					"contact": {},
+					"location": {
+						"address": "454 Graham Ave",
+						"crossStreet": "Richardson St",
+						"lat": 40.718650817871094,
+						"lng": -73.9449234008789,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.718650817871094,
+							"lng": -73.9449234008789
+						}],
+						"distance": 1561,
+						"postalCode": "11211",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["454 Graham Ave (Richardson St)", "Brooklyn, NY 11211", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-453cc0c9f964a520183c1fe3-47"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4c178bd4f1c976b0cb52a272",
+					"name": "Cafe Express",
+					"contact": {},
+					"location": {
+						"address": "31-29 Thomson Ave.",
+						"lat": 40.744898,
+						"lng": -73.93436570139475,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.744898,
+							"lng": -73.93436570139475
+						}],
+						"distance": 1592,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["31-29 Thomson Ave.", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4c178bd4f1c976b0cb52a272-48"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "4f3278d419836c91c7db1ccc",
+					"name": "Seven Coffee Shop",
+					"contact": {},
+					"location": {
+						"address": "4340 34th St",
+						"lat": 40.74527359008789,
+						"lng": -73.93090057373047,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.74527359008789,
+							"lng": -73.93090057373047
+						}],
+						"distance": 1672,
+						"postalCode": "11101",
+						"cc": "US",
+						"city": "Queens",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["4340 34th St", "Long Island City, NY 11101", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d1e0931735",
+						"name": "Coffee Shop",
+						"pluralName": "Coffee Shops",
+						"shortName": "Coffee Shop",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-4f3278d419836c91c7db1ccc-49"
+			}, {
+				"reasons": {
+					"count": 0,
+					"items": [{
+						"summary": "This spot is popular",
+						"type": "general",
+						"reasonName": "globalInteractionReason"
+					}]
+				},
+				"venue": {
+					"id": "5065f738e4b04042044269ff",
+					"name": "Cafe Rochelle",
+					"contact": {},
+					"location": {
+						"lat": 40.73142509949864,
+						"lng": -73.95443421537702,
+						"labeledLatLngs": [{
+							"label": "display",
+							"lat": 40.73142509949864,
+							"lng": -73.95443421537702
+						}],
+						"distance": 1621,
+						"postalCode": "11222",
+						"cc": "US",
+						"city": "Brooklyn",
+						"state": "NY",
+						"country": "United States",
+						"formattedAddress": ["Brooklyn, NY 11222", "United States"]
+					},
+					"categories": [{
+						"id": "4bf58dd8d48988d16d941735",
+						"name": "Café",
+						"pluralName": "Cafés",
+						"shortName": "Café",
+						"icon": {
+							"prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/cafe_",
+							"suffix": ".png"
+						},
+						"primary": true
+					}],
+					"verified": false,
+					"stats": {
+						"tipCount": 0,
+						"usersCount": 0,
+						"checkinsCount": 0,
+						"visitsCount": 0
+					},
+					"beenHere": {
+						"count": 0,
+						"lastCheckinExpiredAt": 0,
+						"marked": false,
+						"unconfirmedCount": 0
+					},
+					"photos": {
+						"count": 0,
+						"groups": []
+					},
+					"hereNow": {
+						"count": 0,
+						"summary": "Nobody here",
+						"groups": []
+					}
+				},
+				"referralId": "e-0-5065f738e4b04042044269ff-50"
 			}]
 		}]
 	}
