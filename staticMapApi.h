@@ -6,7 +6,7 @@ size_t write_data(void *ptr, size_t size, size_t nmemb, FILE *stream) {
 int plotMap(char url[], char outfilename[]) {
     CURL *curl;
     FILE *fp;
-    printf("%s",url);
+    
     CURLcode res;
     curl = curl_easy_init();
     if (curl) {
@@ -15,7 +15,6 @@ int plotMap(char url[], char outfilename[]) {
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
         res = curl_easy_perform(curl);
-        /* always cleanup */
         curl_easy_cleanup(curl);
         fclose(fp);
     }

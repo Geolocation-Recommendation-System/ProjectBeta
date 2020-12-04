@@ -48,7 +48,7 @@ void do_calculate(GtkWidget *calculate, gpointer data) {
     char *buffer;
     buffer = (char *)gtk_entry_get_text(GTK_ENTRY(place));
 
-    char *ch1 = "https://api.foursquare.com/v2/venues/explore?client_id=ODFO3RLC1RT3MSJHH03G0G1AEYUYVIMRHTTJIHZWU10T42KV&client_secret=LLJMAOCW1KJ1FTZFCMN2MVEDOP4JZR4LMIR4UMB1WTHBLSAM&v=20180323&ll=40.730610,-73.935242&query=";
+    char *ch1 = "https://api.foursquare.com/v2/venues/explore?client_id=ODFO3RLC1RT3MSJHH03G0G1AEYUYVIMRHTTJIHZWU10T42KV&client_secret=A2O30KZYRMRXHV4UI5E1KUWCJLTU5XNHGFYVMOOGTM5ZUQ0P&v=20180323&ll=40.730610,-73.935242&query=";
     char *ch2 = "&limit=100";
     ch = concatenate(ch1, buffer, ch2);
     

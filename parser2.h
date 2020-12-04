@@ -39,17 +39,19 @@ void calc()
 	n_items = json_object_array_length(items);
 	//printf("Found %lu groups\n",n_items);
 	printf("Dataset : \n");
-	FILE *file;
+	FILE *file, *file2;
 	file = fopen("data.txt", "w");
+	file2 = fopen("id.txt", "w");
 	if( !fp ) perror("data.txt"),exit(1);
 	for(int i=0;i<n_items;i++) {
-		items_refined = json_object_array_get_idx(items, i);
-		json_object_object_get_ex(items_refined, "venue", &venue);
+                items_refined = json_object_array_get_idx(items, i);
+        	json_object_object_get_ex(items_refined, "venue", &venue);
 		json_object_object_get_ex(venue, "id", &id);
 		json_object_object_get_ex(venue, "location", &location);
 		json_object_object_get_ex(location, "lat", &lat);
 		json_object_object_get_ex(location, "lng", &lng);
 		printf("%f\t%f\n",json_object_get_double(lat), json_object_get_double(lng));
+		fprintf(file2,"%s\n",json_object_get_string(id));
 		fprintf(file,"%f,%f\n",json_object_get_double(lat),json_object_get_double(lng));
 	}
 	fclose(file);
